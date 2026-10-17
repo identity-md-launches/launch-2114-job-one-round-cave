@@ -1,0 +1,30 @@
+{
+  "name": "The Reading Place",
+  "image": "https://api.imd.fun/artifacts/d7243377db31c4e0f3e2f307c71e627a519eae4d235392f3917bb4bd52352ac9",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 28
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Cited Reading List"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three questions converge on one cited reading place."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

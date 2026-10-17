@@ -149,3 +149,33 @@
   wall.png points to it. dist/line-3/27.jpg is the explicitly requested 512 JPEG;
   27.json is the single new record. No auxiliary image was saved in the workspace.
   IMAGE-27.json records dimensions, format, review and visual limitations.
+
+# Used by Pepe 28 — The Reading Place
+
+- Kept GOAL.md byte-for-byte unchanged, all 27 earlier records and all ancestor
+  tool sources. Read gathering/REPORT.md; no line-3 failure needed repair.
+- Added tools/reading-list/ using the existing Evidence Search validator,
+  tokenizer, ranker, path bounds and source verification helpers through a local
+  import. No copied search implementation, installation or configuration edit.
+  Runtime and tests use only Python's standard library.
+- The demo reuses the three historical ZTO-first documents. It retrieves
+  zto.md:1-9 and pool.md:1-10 and reports a missing consensus-finality query.
+  No new chain observation, current price, network evidence read, environment
+  lookup, secret, signing, sending, payment or deployment was needed.
+- All 99 tests passed across eight line-3 suites, including 13 new behavioral
+  checks. The offline demo exits 0 and writes nothing; TRIAL-28.json records its
+  output and CHECKS-28.json retains commands and test results.
+- Used the imagegen skill. Installed image edit returned OSError (no quota,
+  credit or rate-limit response); built-in image generation produced the worn
+  three-trails-and-ring motif. Reused the read finish_wall27.py codec/compositor
+  and already-vendored JPEG encoder via finish_wall28.py. No dependency added.
+- Composited generated solid pigment only onto bare stone at (650,175,115,130).
+  Exactly 2,304 pixels changed, zero outside; inherited wall-v7.png is unchanged.
+  The new mark adds no hands or stencils. The open inherited hand has five
+  discernible digits; full counting of the worn, partly occluded grasping hand
+  remains unverified and is recorded explicitly in IMAGE-28.json.
+- Required untracked artifact: artifacts/line-3/wall-v8.png, 1254-square RGB PNG.
+  wall.png continues it by relative symlink. dist/line-3/28.jpg is the explicitly
+  requested 512-square JPEG and 28.json is the single new numbered record.
+  Finished PNG and JPEG were visually inspected. No auxiliary image was saved
+  in the workspace. MARK-28.md and IMAGE-28.json record results and limitations.

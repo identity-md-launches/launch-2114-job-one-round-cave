@@ -1,0 +1,85 @@
+{
+  "suites": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "line-3/tools/collection-guide/test_guide.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_cli_error_atomic_output (__main__.GuideTests.test_cli_error_atomic_output) ... ok\ntest_demo_suggested_query_retrieves_source (__main__.GuideTests.test_demo_suggested_query_retrieves_source) ... ok\ntest_digests_bind_bytes_and_options (__main__.GuideTests.test_digests_bind_bytes_and_options) ... ok\ntest_distinctive_terms_before_common_terms (__main__.GuideTests.test_distinctive_terms_before_common_terms) ... ok\ntest_empty_and_blank_documents (__main__.GuideTests.test_empty_and_blank_documents) ... ok\ntest_every_reference_reproduces (__main__.GuideTests.test_every_reference_reproduces) ... ok\ntest_fences_and_heading_limit (__main__.GuideTests.test_fences_and_heading_limit) ... ok\ntest_input_validation (__main__.GuideTests.test_input_validation) ... ok\ntest_order_independent_and_immutable (__main__.GuideTests.test_order_independent_and_immutable) ... ok\ntest_passage_budget (__main__.GuideTests.test_passage_budget) ... ok\ntest_scan_cli_no_writes_symlink_exclusion (__main__.GuideTests.test_scan_cli_no_writes_symlink_exclusion) ... ok\ntest_tampered_uncited_source_rejected (__main__.GuideTests.test_tampered_uncited_source_rejected) ... ok\ntest_unicode_normalization_and_stopwords (__main__.GuideTests.test_unicode_normalization_and_stopwords) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.019s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "line-3/tools/corpus-change-receipt/test_receipt.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_added_removed_changed_are_sorted_and_cited (__main__.ReceiptTests.test_added_removed_changed_are_sorted_and_cited) ... ok\ntest_demo_and_cli_error (__main__.ReceiptTests.test_demo_and_cli_error) ... ok\ntest_deterministic_hash_and_unchanged_snapshots (__main__.ReceiptTests.test_deterministic_hash_and_unchanged_snapshots) ... ok\ntest_forged_hash_rejected (__main__.ReceiptTests.test_forged_hash_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.008s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "line-3/tools/corpus-freshness/test_freshness.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_bad_utf8_and_budget_errors_never_fresh (__main__.FreshnessTests.test_bad_utf8_and_budget_errors_never_fresh) ... ok\ntest_cli_statuses_reports_and_errors (__main__.FreshnessTests.test_cli_statuses_reports_and_errors) ... ok\ntest_empty_corpus_and_order_independence (__main__.FreshnessTests.test_empty_corpus_and_order_independence) ... ok\ntest_forged_index_and_traversal_rejected (__main__.FreshnessTests.test_forged_index_and_traversal_rejected) ... ok\ntest_hidden_unsupported_and_symlink_additions_excluded (__main__.FreshnessTests.test_hidden_unsupported_and_symlink_additions_excluded) ... ok\ntest_same_length_same_mtime_change_detected (__main__.FreshnessTests.test_same_length_same_mtime_change_detected) ... ok\ntest_sorted_added_removed_changed_and_rename (__main__.FreshnessTests.test_sorted_added_removed_changed_and_rename) ... ok\ntest_source_replaced_by_link_reported_removed (__main__.FreshnessTests.test_source_replaced_by_link_reported_removed) ... ok\ntest_unchanged_citations_and_no_writes (__main__.FreshnessTests.test_unchanged_citations_and_no_writes) ... ok\ntest_uncited_change_blocks_even_no_match_query (__main__.FreshnessTests.test_uncited_change_blocks_even_no_match_query) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.064s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "line-3/tools/evidence-bundle/test_bundle.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_canonical_identity_and_determinism (__main__.BundleTests.test_canonical_identity_and_determinism) ... ok\ntest_changing_corpus_during_pack_fails (__main__.BundleTests.test_changing_corpus_during_pack_fails) ... ok\ntest_cli_pack_check_unpack_and_error_statuses (__main__.BundleTests.test_cli_pack_check_unpack_and_error_statuses) ... ok\ntest_existing_directory_and_output_never_overwritten (__main__.BundleTests.test_existing_directory_and_output_never_overwritten) ... ok\ntest_failed_io_leaves_new_partial_output_for_inspection (__main__.BundleTests.test_failed_io_leaves_new_partial_output_for_inspection) ... ok\ntest_hidden_unsupported_and_symlinks_not_carried (__main__.BundleTests.test_hidden_unsupported_and_symlinks_not_carried) ... ok\ntest_json_duplicates_nonfinite_invalid_and_bounds (__main__.BundleTests.test_json_duplicates_nonfinite_invalid_and_bounds) ... ok\ntest_mismatch_does_not_write (__main__.BundleTests.test_mismatch_does_not_write) ... ok\ntest_no_hits_and_empty_corpus (__main__.BundleTests.test_no_hits_and_empty_corpus) ... ok\ntest_paths_and_prefix_conflicts_rejected_before_writes (__main__.BundleTests.test_paths_and_prefix_conflicts_rejected_before_writes) ... ok\ntest_real_zto_demo (__main__.BundleTests.test_real_zto_demo) ... ok\ntest_rehashed_forgery_is_not_reproduced (__main__.BundleTests.test_rehashed_forgery_is_not_reproduced) ... ok\ntest_roundtrip_preserves_bytes_and_reproduces_receipt (__main__.BundleTests.test_roundtrip_preserves_bytes_and_reproduces_receipt) ... ok\ntest_source_tampering_and_manifest_mismatch (__main__.BundleTests.test_source_tampering_and_manifest_mismatch) ... ok\ntest_workspace_boundary_and_wrong_pin_type (__main__.BundleTests.test_workspace_boundary_and_wrong_pin_type) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.314s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "line-3/tools/evidence-search/test_search.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_cli_build_query_and_no_match_status (__main__.EvidenceSearchTests.test_cli_build_query_and_no_match_status) ... ok\ntest_duplicate_keys_invalid_hash_unknown_version_and_output_preserved (__main__.EvidenceSearchTests.test_duplicate_keys_invalid_hash_unknown_version_and_output_preserved) ... ok\ntest_empty_and_missing_terms (__main__.EvidenceSearchTests.test_empty_and_missing_terms) ... ok\ntest_exact_citations_hash_and_crlf (__main__.EvidenceSearchTests.test_exact_citations_hash_and_crlf) ... ok\ntest_forged_excerpt_and_matching_forged_hash_still_rejected (__main__.EvidenceSearchTests.test_forged_excerpt_and_matching_forged_hash_still_rejected) ... ok\ntest_overlap_suppression_and_deterministic_ties (__main__.EvidenceSearchTests.test_overlap_suppression_and_deterministic_ties) ... ok\ntest_paths_and_hostile_index_names_rejected_without_reading (__main__.EvidenceSearchTests.test_paths_and_hostile_index_names_rejected_without_reading) ... ok\ntest_ranked_specific_document_and_full_address (__main__.EvidenceSearchTests.test_ranked_specific_document_and_full_address) ... ok\ntest_resource_and_encoding_limits (__main__.EvidenceSearchTests.test_resource_and_encoding_limits) ... ok\ntest_source_change_and_removal_fail_closed (__main__.EvidenceSearchTests.test_source_change_and_removal_fail_closed) ... ok\ntest_symlinks_hidden_files_and_non_document_types_excluded (__main__.EvidenceSearchTests.test_symlinks_hidden_files_and_non_document_types_excluded) ... ok\ntest_unicode_normalization_and_query_term_deduplication (__main__.EvidenceSearchTests.test_unicode_normalization_and_query_term_deduplication) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.054s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "line-3/tools/query-impact/test_impact.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_added_and_removed_hits_with_exact_citations (__main__.ImpactTests.test_added_and_removed_hits_with_exact_citations) ... ok\ntest_changed_excerpt_same_coordinates (__main__.ImpactTests.test_changed_excerpt_same_coordinates) ... ok\ntest_cli_errors_no_partial_stdout_and_path_boundary (__main__.ImpactTests.test_cli_errors_no_partial_stdout_and_path_boundary) ... ok\ntest_cli_real_demo_and_saved_snapshot_comparison (__main__.ImpactTests.test_cli_real_demo_and_saved_snapshot_comparison) ... ok\ntest_crlf_only_change_is_source_change_not_excerpt_change (__main__.ImpactTests.test_crlf_only_change_is_source_change_not_excerpt_change) ... ok\ntest_edit_outside_selected_passage (__main__.ImpactTests.test_edit_outside_selected_passage) ... ok\ntest_empty_no_hits_and_all_terms (__main__.ImpactTests.test_empty_no_hits_and_all_terms) ... ok\ntest_identical_snapshots_determinism_no_mutation (__main__.ImpactTests.test_identical_snapshots_determinism_no_mutation) ... ok\ntest_invalid_requests_and_budgets (__main__.ImpactTests.test_invalid_requests_and_budgets) ... ok\ntest_rank_changes_even_when_retained_source_unchanged (__main__.ImpactTests.test_rank_changes_even_when_retained_source_unchanged) ... ok\ntest_rejects_corrupt_non_hit_source_and_unsafe_path (__main__.ImpactTests.test_rejects_corrupt_non_hit_source_and_unsafe_path) ... ok\ntest_relocated_excerpt_is_left_and_entered_not_guessed_rename (__main__.ImpactTests.test_relocated_excerpt_is_left_and_entered_not_guessed_rename) ... ok\ntest_snapshot_and_live_search_agree_seeded_corpora (__main__.ImpactTests.test_snapshot_and_live_search_agree_seeded_corpora) ... ok\ntest_snapshot_search_never_reads_source_files (__main__.ImpactTests.test_snapshot_search_never_reads_source_files) ... ok\ntest_top_k_entry_is_not_claimed_as_source_addition (__main__.ImpactTests.test_top_k_entry_is_not_claimed_as_source_addition) ... ok\ntest_unrelated_addition_changes_scores_not_answer_identity (__main__.ImpactTests.test_unrelated_addition_changes_scores_not_answer_identity) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.357s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "line-3/tools/reading-list/test_reading_list.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_cli_outputs_no_partial_results_on_error (__main__.ReadingTests.test_cli_outputs_no_partial_results_on_error) ... ok\ntest_depth_is_explicit_candidate_limit (__main__.ReadingTests.test_depth_is_explicit_candidate_limit) ... ok\ntest_deterministic_immutable_order_independent (__main__.ReadingTests.test_deterministic_immutable_order_independent) ... ok\ntest_empty_corpus (__main__.ReadingTests.test_empty_corpus) ... ok\ntest_exact_crlf_and_unicode_citations (__main__.ReadingTests.test_exact_crlf_and_unicode_citations) ... ok\ntest_gaps_distinguish_absent_and_budget (__main__.ReadingTests.test_gaps_distinguish_absent_and_budget) ... ok\ntest_global_overlaps_suppressed (__main__.ReadingTests.test_global_overlaps_suppressed) ... ok\ntest_invalid_queries_and_bounds (__main__.ReadingTests.test_invalid_queries_and_bounds) ... ok\ntest_live_verification_rejects_changed_missing_and_symlink (__main__.ReadingTests.test_live_verification_rejects_changed_missing_and_symlink) ... ok\ntest_real_historical_demo_and_status (__main__.ReadingTests.test_real_historical_demo_and_status) ... ok\ntest_require_all (__main__.ReadingTests.test_require_all) ... ok\ntest_shared_passage_covers_two_queries_before_single (__main__.ReadingTests.test_shared_passage_covers_two_queries_before_single) ... ok\ntest_validates_unselected_sources (__main__.ReadingTests.test_validates_unselected_sources) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.046s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "line-3/tools/search-receipt/test_receipt.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_cli_create_verify_statuses_and_demo (__main__.ReceiptTests.test_cli_create_verify_statuses_and_demo) ... ok\ntest_crlf_to_lf_change_detected (__main__.ReceiptTests.test_crlf_to_lf_change_detected) ... ok\ntest_deterministic_portable_and_json_whitespace_independent (__main__.ReceiptTests.test_deterministic_portable_and_json_whitespace_independent) ... ok\ntest_documents_remain_data (__main__.ReceiptTests.test_documents_remain_data) ... ok\ntest_forged_results_fail_even_with_recomputed_hash (__main__.ReceiptTests.test_forged_results_fail_even_with_recomputed_hash) ... ok\ntest_forged_source_manifest_is_not_complete (__main__.ReceiptTests.test_forged_source_manifest_is_not_complete) ... ok\ntest_hash_mismatch_does_not_read_corpus (__main__.ReceiptTests.test_hash_mismatch_does_not_read_corpus) ... ok\ntest_invalid_encoding_and_resource_limits (__main__.ReceiptTests.test_invalid_encoding_and_resource_limits) ... ok\ntest_malformed_schema_paths_sources_and_duplicates (__main__.ReceiptTests.test_malformed_schema_paths_sources_and_duplicates) ... ok\ntest_mid_audit_changes_are_rejected (__main__.ReceiptTests.test_mid_audit_changes_are_rejected) ... ok\ntest_no_hits_and_empty_corpus_are_verifiable (__main__.ReceiptTests.test_no_hits_and_empty_corpus_are_verifiable) ... ok\ntest_output_preservation_and_workspace_boundary (__main__.ReceiptTests.test_output_preservation_and_workspace_boundary) ... ok\ntest_request_validation_and_expected_hash (__main__.ReceiptTests.test_request_validation_and_expected_hash) ... ok\ntest_round_trip_exact_citation_and_no_writes (__main__.ReceiptTests.test_round_trip_exact_citation_and_no_writes) ... ok\ntest_symlink_exclusion_and_replacement (__main__.ReceiptTests.test_symlink_exclusion_and_replacement) ... ok\ntest_uncited_edits_additions_removals_reported (__main__.ReceiptTests.test_uncited_edits_additions_removals_reported) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.210s\n\nOK\n"
+    }
+  ],
+  "demo_exit_code": 0
+}

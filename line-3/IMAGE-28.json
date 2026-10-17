@@ -1,0 +1,42 @@
+{
+  "ancestor_sha256": "b4601a387bed2a9b992793a204a30feb404bbe97c91fe0b7e121713b22f475fb",
+  "generated_motif_sha256": "db741a1a0c8c5b0e0de5ad67017c57a3a609739d283289d55da90ba0cc9a6685",
+  "wall_sha256": "d7243377db31c4e0f3e2f307c71e627a519eae4d235392f3917bb4bd52352ac9",
+  "format": "PNG",
+  "mode": "RGB",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "new_mark_rectangle": [
+    650,
+    175,
+    115,
+    130
+  ],
+  "changed_pixels": 2304,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-3/28.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 75897
+  },
+  "method": "Image-tool pigment with low-opacity glow removed, composited only onto previously bare rock.",
+  "visual_review": "Inspected finished PNG and 512-pixel JPEG. New three ochre trails converge on a charcoal ring on previously bare upper-central stone. Main Pepe, ancestor marks, rock, cracks, light and framing preserved. No text, numbers, border, watermark or prohibited symbol observed. No hands or handprints added.",
+  "unmet_visual_requirements": [
+    "Exact five-digit count could not be verified for the partially occluded inherited grasping hand."
+  ],
+  "visual_limitations": [
+    "The small mark is modest at thumbnail size.",
+    "Inherited grasping hand is partly occluded and worn; its complete digit count cannot be confidently verified. The visible open hand retains five discernible digits. No ancestor pixels were repaired or redrawn."
+  ],
+  "generation": {
+    "adapter_attempt": "Installed image edit returned OSError; no quota, credit or rate error reported.",
+    "successful_tool": "Built-in image_gen imagegen",
+    "prompt": "Create a small isolated prehistoric cave-pigment motif on transparent background: three uneven short red-ochre trails converge onto one small hollow charcoal ring. Dry thumb and burnt-stick marks, chipped worn earthy pigment, no smooth digital graphics. No text, letters, numbers, logos, border, handprints or figures. Motif centered with ample transparent margin. This will be composited onto bare rock of an existing cave painting."
+  }
+}
