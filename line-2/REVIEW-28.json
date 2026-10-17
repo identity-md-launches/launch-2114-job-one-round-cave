@@ -1,0 +1,55 @@
+{
+  "round": 28,
+  "ancestorSha256": "2f340b47655c9dbd3a591132f3ede4c2b9a8948f0c45714093b302dd944aa947",
+  "generatedDraftSha256": "3bac800804665aca7d05753d17c534ad9656aa3853bbc720a0cc4e12f6b9cf2c",
+  "wallSha256": "8f0c7e9860f0ed0c3dc639d1f0e8cf9a5d81155fc3b1b9e20e08a441d0b5124f",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "RGB",
+  "newMarkRectangle": [
+    270,
+    200,
+    135,
+    51
+  ],
+  "changedPixels": 2702,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Built-in imagegen; retained only its new pigment on bare rock.",
+  "visualReview": "Inspected full 1254px PNG and decoded 512px JPEG. The new small linked ochre stones and chalk fleck are visible on bare upper-left rock. Pepe retains wide mouth, heavy-lidded eyes and five digits on each of two inherited hands; no new hands or handprints. All earlier motifs, cave texture, cracks, torchlight and framing remain. No text, numbers, captions, signatures, logos, watermarks, borders, frames, real people or prohibited symbols observed. The mark is faint in the thumbnail; review is local, not external approval.",
+  "unmetVisualRequirements": [],
+  "images": [
+    {
+      "path": "artifacts/line-2/wall-v8.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3938090,
+      "sha256": "8f0c7e9860f0ed0c3dc639d1f0e8cf9a5d81155fc3b1b9e20e08a441d0b5124f"
+    },
+    {
+      "path": "artifacts/line-2/wall.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3938090,
+      "sha256": "8f0c7e9860f0ed0c3dc639d1f0e8cf9a5d81155fc3b1b9e20e08a441d0b5124f"
+    },
+    {
+      "path": "dist/line-2/28.jpg",
+      "format": "JPEG",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 77408,
+      "sha256": "58909f356eb3e34a4e35d33ad807b28d83d5c1888a01614415e026e36e2b57eb"
+    }
+  ]
+}

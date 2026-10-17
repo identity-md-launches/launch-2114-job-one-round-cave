@@ -118,3 +118,19 @@ storage root with unchanged sampled slots. Both checkpoints require external
 authentication; ordered headers alone do not establish ancestry, events or
 current state. [Round 27](ROUND-27.md) and [review](REVIEW-27.json) describe the
 two-leaf mark, preserved ancestor pixels, PNG and JPEG outputs.
+
+## Round 28 addition
+
+[Ancestry Diff](tools/ancestry-diff/README.md) verifies both endpoint proofs
+and their parent-linked headers from one caller-supplied tip hash. Its offline
+real ZTO/IMD pool trial covers three parent links:
+
+```sh
+python3 -B line-2/tools/ancestry-diff/ancestry_diff.py demo
+```
+
+Ten new integration tests passed. The sampled pool slot stayed equal while
+the PoolManager storage root changed; the report distinguishes those claims.
+Independent tip authentication and consensus validation remain external.
+[Round 28](ROUND-28.md) and [review](REVIEW-28.json) record the linked-stone
+mark, preserved ancestor pixels and image dimensions.

@@ -117,3 +117,22 @@
   preserved-wall composite. Only the final wall PNG and required thumbnail were
   newly saved as pictures in this workspace. Full wall and JPEG were inspected.
   See ROUND-27.md and REVIEW-27.json for the prompt, dimensions and limits.
+
+# Used in round 28
+
+- Preserved GOAL.md and all ancestor tools, fixtures and numbered records.
+  Read gathering/REPORT.md; it reported no line-2 breakage to repair.
+- Added Ancestry Diff by importing the unchanged sibling Header Chain and
+  State Diff tools. It reuses their header, EIP-1186/MPT and endpoint checks,
+  and the inherited real ZTO/IMD pool witness and four-header chain.
+- Captured the real tip PoolManager proof at block 26,212,393 from
+  https://eth.drpc.org with the inherited read-only JSON-RPC helper and custom
+  User-Agent, after publicnode did not return a usable response. Captured
+  only chain ID, a header and a proof; verified the proof before retaining it
+  as an ordinary offline JSON fixture. No new runtime dependency or coin.
+- Used the built-in imagegen tool on wall-v7.png. Retained only generated
+  pigment in an unused upper-left patch, preserving every other ancestor
+  pixel. Reused the read gathering PNG codec and line-3's vendored JPEG encoder
+  without altering either. See ROUND-28.md and REVIEW-28.json. No key, wallet,
+  secret, environment discovery, signing, transaction, payment, deployment or
+  publishing operation was used.
