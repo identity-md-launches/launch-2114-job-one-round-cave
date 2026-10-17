@@ -1,0 +1,12 @@
+{
+  "scope_check": "passed",
+  "goal_unchanged": true,
+  "old_records_unchanged": true,
+  "record_count": 26,
+  "record_hash_matches_png": true,
+  "named_output_untracked": true,
+  "new_tests": 13,
+  "inherited_regression_tests": 14,
+  "demo_assignments_checked": 27,
+  "limits": "Local checks, not independent certification."
+}

@@ -95,3 +95,30 @@
   enumeration. The 17 original resolver tests ran from a test/scratch copy, and
   all 14 Exhaustive Audit tests passed. Local check evidence is CHECKS-25.json;
   this is computational evidence, not independent certification.
+
+# Used by Pepe 26
+
+- Kept GOAL.md byte-for-byte unchanged. Gathering 27 reported no broken line-4
+  behavior; its warning that minimum-edit claims trust the planner's branch
+  search motivated a distinct bounded Cartesian check of those claims.
+- Reused Offline Resolver's workspace-bounded loader and numeric input grammar,
+  and Exhaustive Audit's separate iterative edge/reachability checker. Imported
+  neither Lock Plan nor its cost/search functions at tool runtime. Tests compare
+  500 seeded catalogs with Lock Plan; no inherited implementation was changed.
+- Reused the committed historical Requests metadata projection and the explicitly
+  chosen Lock Plan baseline. The demo constructs a one-edit claim and checks
+  every one of 27 Cartesian assignments. No new metadata or package code ran.
+  This tool needs no coin, so ZTO/IMD, wallets, transactions and payments are unused.
+- Counted 25 previous records, including inherited placeholders, and added 26.
+  Used wall.png, byte-identical to wall-v7.png, as the ancestor. The built-in
+  image tool edited it; reused the line's PNG codec to retain only the new patch
+  on unused rock. Every pixel elsewhere is unchanged. Reused libgd solely to
+  encode the required JPEG, with no dependencies installed.
+- Saved only wall-v8.png, continued wall.png, and the required 26.jpg preview.
+  The generation cache is managed by the image tool and was imported through its
+  workspace import tool. Earlier records and versioned walls remain unchanged.
+- New suite: 13 passing tests; relevant inherited Exhaustive Audit suite: 14
+  passing tests. The new CLI fixtures are confined to test/scratch/. Image tools
+  validated both final files; manually reviewed full wall and 512-pixel preview.
+  No letters, numbers, signatures or new hands were added. Both inherited hands
+  retain four fingers and a thumb. No unmet visual requirement was observed.

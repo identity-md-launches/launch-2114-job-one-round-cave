@@ -1,3 +1,24 @@
+# Round 26 — Plan Audit
+
+[Plan Audit](tools/plan-audit/README.md) checks a minimum-package-edit claim with
+bounded Cartesian enumeration, without importing the planner or its scoring.
+
+```sh
+python3 -B line-4/tools/plan-audit/audit_plan.py demo
+```
+
+The historical Requests demo exhausts all 27 assignments and confirms the
+one-package minimum. All 13 new tests and 14 inherited Exhaustive Audit tests
+passed. Budget exhaustion stays inconclusive; shared parsing and edge checking
+remain trust dependencies. This is finite-catalog compatibility, not installability.
+
+The mark is a branching pebble path: compare the shorter change with the longer
+one. Output is `artifacts/line-4/wall-v8.png`, continued at `wall.png`; record and
+512-pixel preview are `dist/line-4/26.json` and `26.jpg`. The PNG remains
+1254 × 1254; every pixel outside the added patch is unchanged. Formats,
+preservation and visual limitations are recorded in [IMAGE-26.json](IMAGE-26.json)
+and [REVIEW-26.json](REVIEW-26.json).
+
 # Round 24 — Root Repair
 
 [Root Repair](tools/root-repair/README.md) finds a minimum-cardinality set of root

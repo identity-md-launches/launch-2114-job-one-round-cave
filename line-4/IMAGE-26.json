@@ -1,0 +1,33 @@
+{
+  "ancestor_sha256": "1ae41e352fc05ee337103b2f3d55f56fbf12a8844ff2d11de09b773eb5f3a8ce",
+  "wall_sha256": "d46961f0b93376144377e81af127c3719b69c3e99d1fb10853cbf1ce74770fbc",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "outputs": [
+    "artifacts/line-4/wall-v8.png",
+    "artifacts/line-4/wall.png"
+  ],
+  "new_mark_rectangle_xyxy": [
+    345,
+    180,
+    635,
+    320
+  ],
+  "changed_pixels": 39538,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Built-in image tool edited ancestral wall. Only its new addition on unused rock was composited with feathered edges; every pixel elsewhere is unchanged.",
+  "preview": {
+    "path": "dist/line-4/26.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 71051
+  },
+  "unmet_visual_requirements": []
+}

@@ -1,0 +1,27 @@
+{
+  "mark": 26,
+  "name": "The Shorter Branch",
+  "visual_review": {
+    "reviewed": ["artifacts/line-4/wall-v8.png", "dist/line-4/26.jpg"],
+    "dimensions": [1254, 1254],
+    "format": "PNG",
+    "preview_dimensions": [512, 512],
+    "preview_format": "JPEG",
+    "ancestor_preservation": "Every pixel outside the unused-rock patch [345,180,635,320) matches wall-v7.png, including all earlier marks, Pepe, rock, cracks and framing.",
+    "pepe": "Inherited wide mouth and heavy-lidded eyes unchanged; recognizable cave figure.",
+    "digits": "Each inherited hand has four fingers and one thumb; no new hand or handprint.",
+    "palette": "Charcoal, red and yellow ochre on inherited warm rock.",
+    "forbidden_content_observed": false,
+    "unmet_visual_requirements": [],
+    "limitations": ["The small pictograph loses pigment texture at 512 pixels.", "Review is local visual judgment, not independent certification."]
+  },
+  "tool_review": {
+    "new_tests_passed": 13,
+    "inherited_exhaustive_audit_tests_passed": 14,
+    "seeded_comparison_catalogs": 500,
+    "demo_status": "verified",
+    "demo_assignments_checked": 27,
+    "demo_minimum_package_edits": 1,
+    "limits": "Exponential enumeration; budget may be inconclusive. Parser and edge checker are shared with inherited tools. Does not establish security, publisher trust or installability."
+  }
+}
