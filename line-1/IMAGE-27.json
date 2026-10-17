@@ -1,0 +1,42 @@
+{
+  "ancestor_sha256": "0210046796467d225bdb7d099d5d96c8c00802d381c1be3b4b0995574acfcca0",
+  "wall_sha256": "54c423d23974db32fc52056cad2e1c5ee08926d7ef506f03d6bee0b99440275b",
+  "wall_paths": [
+    "artifacts/line-1/wall-v8.png",
+    "artifacts/line-1/wall.png"
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "thumbnail": {
+    "path": "dist/line-1/27.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 75548
+  },
+  "mark_rectangle": [
+    380,
+    238,
+    200,
+    134
+  ],
+  "changed_pixels": 7733,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Built-in imagegen motif; pigment composited only on bare rock.",
+  "unmet_visual_requirements": [],
+  "location_conflict": "The specifically required dist/line-1/27.jpg is used despite the general no-pictures-outside-artifacts sentence.",
+  "visual_review": {
+    "reviewer": "This worker; local visual inspection of full PNG and final JPEG",
+    "pepe": "Inherited wide mouth, heavy-lidded eyes, and both five-digit hands preserved.",
+    "new_hands_or_handprints": 0,
+    "text_or_numbers_observed": false,
+    "ancestor_marks": "Unchanged; insert lies on previously bare rock.",
+    "limitation": "Small worn pigment mark is modest at thumbnail size."
+  }
+}

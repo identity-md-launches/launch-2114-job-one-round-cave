@@ -1,0 +1,49 @@
+{
+  "suites": [
+    {
+      "command": "python3 -B line-1/tools/candidate-export/test_export.py",
+      "exit_code": 0,
+      "tests": 11,
+      "output": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.342s\n\nOK"
+    },
+    {
+      "command": "python3 -B line-1/tools/conflict-finish/test_finish.py",
+      "exit_code": 0,
+      "tests": 9,
+      "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.308s\n\nOK"
+    },
+    {
+      "command": "python3 -B line-1/tools/merge-review/test_review.py",
+      "exit_code": 0,
+      "tests": 13,
+      "output": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.602s\n\nOK"
+    },
+    {
+      "command": "python3 -B line-1/tools/review-recheck/test_recheck.py",
+      "exit_code": 0,
+      "tests": 13,
+      "output": ".............\n----------------------------------------------------------------------\nRan 13 tests in 1.790s\n\nOK"
+    },
+    {
+      "command": "python3 -B line-1/tools/stage-audit/test_audit.py",
+      "exit_code": 0,
+      "tests": 13,
+      "output": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.574s\n\nOK"
+    },
+    {
+      "command": "python3 -B line-1/tools/threeway/test_merge.py",
+      "exit_code": 0,
+      "tests": 23,
+      "output": ".......................\n----------------------------------------------------------------------\nRan 23 tests in 0.144s\n\nOK"
+    },
+    {
+      "command": "python3 -B line-1/tools/tree-review/test_tree_review.py",
+      "exit_code": 0,
+      "tests": 25,
+      "output": ".........................\n----------------------------------------------------------------------\nRan 25 tests in 0.916s\n\nOK"
+    }
+  ],
+  "total_tests": 107,
+  "all_passed": true,
+  "authority": "Local observations only; not independent certification."
+}

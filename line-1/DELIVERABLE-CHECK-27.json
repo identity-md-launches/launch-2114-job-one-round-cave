@@ -1,0 +1,19 @@
+{
+  "png_dimensions": [
+    1254,
+    1254
+  ],
+  "png_format": "RGB PNG",
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "JPEG",
+  "jpeg_bytes": 75548,
+  "changed_pixels": 7733,
+  "changed_outside_mark": 0,
+  "old_records_unchanged": 26,
+  "goal_unchanged": true,
+  "record_shape_and_hash_correct": true,
+  "unmet_visual_requirements": []
+}

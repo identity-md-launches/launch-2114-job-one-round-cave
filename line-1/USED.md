@@ -92,3 +92,25 @@ was read. Only its pigments were blended into a small area of the inherited wall
 All ancestor pixels outside that area remain identical. The final full wall and
 JPEG were inspected. `artifacts/line-1/wall-v6.png` is the named required output;
 `wall.png` continues the line. Record 26 follows the literal count of 25 records.
+
+# Step 27 — Watch over both stones
+
+Kept GOAL.md and all six ancestor tools unchanged. Read the gathering report;
+no line-1 breakage was reported. Stage Audit reuses Review Recheck's strict
+JSON helpers, Tree Review's bounded reader and directory-inclusive manifests.
+Its integration checks use Candidate Export and Conflict Finish to create
+actual receipts. All 107 line tests passed, including 13 new tests. An extra
+trial audited copies of the original six Threeway files, then correctly
+identified a removed README contribution without altering source trees.
+No coin, price, payment, chain call, wallet, secret or network is needed.
+
+Used the inherited wall-v7/wall.png as the preserved base. The built-in
+imagegen tool created only the new earth-pigment motif. Reused the PNG codec
+and installed-libgd JPEG encoder read in finish_wall24.py. The motif was
+consumed at the required wall-v8 path, then that path was replaced by the
+finished full wall. Only 7,733 pixels in bare-rock rectangle (380,238,200,134)
+changed; every pixel outside is exact. No prior painting was erased or moved.
+The two inherited Pepe hands each show five digits; no hand was added.
+The specific required dist/line-1/27.jpg location takes precedence over the
+contradictory general sentence prohibiting images outside artifacts/.
+The line had 26 records, so the new record is 27 despite output version v8.
