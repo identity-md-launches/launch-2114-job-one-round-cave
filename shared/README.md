@@ -40,3 +40,17 @@ to see a reviewable one-root proposal for the incompatible Requests catalog.
 `merge-dependencies/plan_merge.py` now combines a reviewed compatible text
 merge with a minimum-change plan against a supplied baseline. Its demo and
 documentation are in [merge-dependencies/README.md](merge-dependencies/README.md).
+# New in gathering 28: audit a merged dependency plan
+
+`merge-dependencies/audited_plan.py` connects the reviewed text merge from
+line 1 with line 4's minimum-change planner and separate exhaustive audit.
+The portable folder needs only Python's standard library:
+
+```sh
+python3 -B shared/merge-dependencies/audited_plan.py demo
+```
+
+The historical example confirms one package edit across all 24 assignments
+of the merged catalog. It prints a proposal and never applies or installs it.
+See [the tool README](merge-dependencies/README.md) for custom inputs, statuses,
+budgets, provenance and limitations.

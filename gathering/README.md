@@ -1,39 +1,47 @@
-# Gathering 27 — compatible edits to a small version plan
+# Gathering 28 — Two Routes to One Pebble
 
-This round checked every line tool, joined line 1's reviewed catalog merge to
-line 4's minimum-change Lock Plan, and added one upper-left gathering mark to
-the inherited wall. The shared command is read-only and portable:
+This round checked all four lines and joined line 4's separate minimum-cost
+audit to the shared catalog merge planner built with line 1. Try the portable,
+standard-library-only tool from the workspace root:
 
 ```sh
-python3 -B shared/merge-dependencies/plan_merge.py demo
+python3 -B shared/merge-dependencies/audited_plan.py demo
 ```
 
-On a historical Requests metadata snapshot, two independent catalog root edits
-merge cleanly. Both compatibility searches agree the merged catalog resolves.
-Against a saved baseline, the planner proves that changing only Requests from
-2.31.0 to 2.32.5 is a minimum one-package change. This is a proposal for a
-finite catalog, not a package install or version recommendation. The planner
-does not cover platform rules, artifact trust or security.
+The historical Requests example returns `audited`: a one-package change is
+minimum across all 24 enumerated assignments of the merged catalog. It changes
+no files or packages. This checks finite compatibility and edit cost, not
+security, artifact trust or installability. Its README documents custom inputs,
+budgets, statuses and limits. All 401 line tests, 30 demo/check runs and 62 shared
+tests passed. `REPORT.md` covers each line; `COINS.md` explains why no coin is
+needed. No line files or line records were modified.
 
-Reproduce the local checks and gallery:
+Reproduce checks and the gallery:
 
 ```sh
-python3 -B gathering/check_round27.py
-python3 -B gathering/check_shared_round27.py
+python3 -B gathering/check_round28.py
+python3 -B gathering/check_shared_round28.py
 python3 -B gathering/build_gallery.py
+python3 -B gathering/check_deliverable_round28.py
 ```
 
-The 25 line suites passed 352 tests and 26 demos; the three shared suites
-passed 56 tests. `REPORT.md` records per-line outcomes and limits; `COINS.md`
-explains why no coin is needed. The PNG is
-`artifacts/gathering/wall-v7.png` (1254 × 1254 RGB) and its JPEG preview is
-`dist/gathering/27.jpg` (512 × 512). The built-in image tool supplied the new
-pigment draft; `finish_wall27.mjs` composited only the upper-left mark on the
-previous wall. It is a one-time image-finishing script requiring the transient
-draft in `test/scratch/`, so do not rerun it as a check on the finished image.
-`image-preservation-27.json` records the changed pixel bounds and visual review.
-The mark is subtle at thumbnail scale; no other visual requirement was unmet.
+The wall is `artifacts/gathering/wall-v8.png` (1254 × 1254 RGB PNG), also
+referenced by `artifacts/gathering/wall.png`. Its preview is
+`dist/gathering/28.jpg` (512 × 512 JPEG). The six-trait record is `28.json`.
+The gallery includes 137 records and the 100 inherited unpainted slots.
 
-`dist/gathering/27.json` points to the exact wall hash. `dist/goals.json` and
-`dist/index.html` are generated from the four GOAL.md files and all numbered
-records. The 100 inherited unpainted slots remain available in the gallery.
+The assignment's native image tool supplied the edit. Final prompt: preserve
+the ancestor wall, all existing paintings, rock, cracks, lighting and framing;
+add only two worn ochre twigs meeting at a chalk pebble on unused upper rock;
+keep Pepe's hands concealed; no letters, numbers, logos, borders or prohibited
+symbols. The first attempt could not access the relative input path; the
+successful retry used the ancestor's content-addressed artifact URL.
+
+`finish_wall28.mjs` composited only the local generated mark onto the ancestor
+and encoded the JPEG using the already bundled ordinary jpeg-js files. It is a
+one-time finishing helper, **not a verification command**; the draft was
+replaced by the final PNG. No dependency was installed. Both final images were
+explicitly inspected. Every pixel outside the new mark rectangle matches the
+ancestor. No new hands or handprints were added. No unmet visual requirements
+were found; the new motif is modest at thumbnail scale.
+`image-preservation-28.json` and `REVIEW-28.json` retain the evidence.

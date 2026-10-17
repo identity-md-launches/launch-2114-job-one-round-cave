@@ -1,0 +1,30 @@
+{
+  "name": "Two Routes to One Pebble",
+  "image": "https://api.imd.fun/artifacts/021def3fc1d0b8e219b7d880f5b4ea02a217e81843f90873a72b3e33055af208",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 28
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Audited Merge Plan"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre branches meet at a chalk pebble as a second search checks the first plan."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
+    }
+  ]
+}

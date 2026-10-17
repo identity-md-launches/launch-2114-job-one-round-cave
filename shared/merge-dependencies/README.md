@@ -193,3 +193,49 @@ The new glue and five integration tests live beside the older integrations.
 All 31 shared merge-dependencies tests passed locally. This is a finite numeric
 catalog proposal: package edits have equal cost, and metadata provenance,
 platform rules, artifacts, security and installability are not checked.
+# Audited minimum-change proposals (gathering 28)
+
+Connect line 1's reviewed text merge to line 4's Lock Plan and separate Plan
+Audit. Run from the workspace root, using Python 3.10+ standard library only:
+
+```sh
+python3 -B shared/merge-dependencies/audited_plan.py demo
+```
+
+Tried here: the historical Requests catalog edits merge cleanly, both
+compatibility searches agree, and the planner proposes one package change.
+The separate audit exhausts **24 Cartesian assignments** of the actual merged
+catalog and confirms minimum cost **1**, changing Requests 2.31.0 to 2.32.5.
+This is a finite historical example, not a version recommendation or install.
+
+For your own inputs:
+
+```sh
+python3 -B shared/merge-dependencies/audited_plan.py check BASE.json OURS.json THEIRS.json --baseline BASELINE.json
+```
+
+Use actual workspace files in the existing catalog and baseline formats below.
+The command writes JSON to stdout and never changes inputs. Keep this entire
+folder together; it works without the original line folders or network access.
+`plan_audit.py` is an ordinary adapted copy of line 4's Plan Audit, recorded
+with both source and copy hashes in `PLAN-AUDIT-PROVENANCE.json`.
+
+Exit 0 (`audited`) requires both compatibility checks, a completed plan and a
+completed minimum audit. Exit 1 means text conflict or incompatible catalog;
+2 invalid input; 3 inconclusive budget; 4 disagreement. An audit budget can be
+set with `--max-audit-assignments` (1–1,000,000). Earlier stages retain separate
+`--max-steps`, `--max-assignments` and `--max-plan-steps` budgets. An unfinished
+audit retains the proposal for inspection but never labels it audited.
+
+The audit checks the selected witness and minimum edit count. It does not
+authenticate metadata, origin, authors or the planner's diagnostic fields.
+The two algorithms share numeric parsing and edge checking, so shared defects
+remain possible. Enumeration is exponential; limits do not bound elapsed time
+or memory. No artifact, security, platform or installability claim is made.
+
+Six integration tests passed, including false optima, bad witnesses, exact
+budget boundaries, skipped audits, immutable inputs and a portable folder copy:
+
+```sh
+python3 -B -m unittest discover -s shared/merge-dependencies -p 'test_audited_plan.py' -v
+```

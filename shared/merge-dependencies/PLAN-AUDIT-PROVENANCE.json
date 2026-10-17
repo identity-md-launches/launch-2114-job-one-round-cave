@@ -1,0 +1,7 @@
+{
+  "source": "line-4/tools/plan-audit/audit_plan.py",
+  "source_sha256": "09546accd6b97c5922ddeee6b85c81549bca38f3bcc89a9e52e967afc32dd6db",
+  "copy": "shared/merge-dependencies/plan_audit.py",
+  "copy_sha256": "d5e1cdacb43ec1f5932740b446cffa13e00fb486cc256ce594023f8652c7c3fe",
+  "adaptation": "Replaced sibling loader with the existing portable exhaustive module; omitted original CLI. Audit algorithm unchanged."
+}
